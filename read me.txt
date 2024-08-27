@@ -1,0 +1,5 @@
+This repository includes some enterprise evaluation tools, like DCF, DCFF, DCDV, APV, EPV, etc.
+Each project gets a test case, which is activated in the Debug mode, and there are some compiled tools in the release folder.
+the ev tools can be used in the way, take DCF for example: 
+input the command bellow into the CMD: "HuDcf.exe sn ni na cy st ys g r roe ys g r roe... sc". The params take means below: sn means shareholder numbers, ni: net income, na: net assets, cy: current year, st: stages, ys: stage one years, g: stage one net income grow rate, r: stage one discount rate, and  the next will be stage two, and three. the years of -1 means forever stage. sc: safety factor. for example: 
+"HuDcf.exe 8.21 18.5 72.0 2020 4 3 0.12 0.09 0.257 4 0.12 0.09 0.257 5 0.08 0.09 0.257 -1 0.03 0.08 0.257 1.0"
